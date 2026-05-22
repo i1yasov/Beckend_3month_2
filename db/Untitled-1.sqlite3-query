@@ -1,0 +1,4 @@
+-- database: /home/user/Desktop/bekend3-2file/db/todo.db
+
+SELECT * FROM tasks;
+ALTER TABLE tasks ADD COLUMN completed INTEGER DEFAULT 0;
